@@ -20,11 +20,7 @@ public class FundChecker {
         this.balance-=decBalance;
         System.out.println(decBalance+" money cashout success: your account balance is : "+ getBalance());
     }
-    
-    public void increaseAccountBalance(double inBalance){
-        this.balance+=inBalance;
-    }
-    
+   
     public void makeDeposit(double depBalance){
         this.balance+=depBalance;
         System.out.println(depBalance+" money deposited: current balance: "+getBalance());
